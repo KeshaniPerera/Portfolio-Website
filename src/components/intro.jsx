@@ -34,9 +34,9 @@ export const Intro = () => {
                     />
                 </div>
                 <div className="flex justify-center lg:justify-start gap-8 text-center lg:mt-10">
-                    <a href="#contact" className="bg-lightPurple hover:bg-blue-700 w-36 font-poppins py-2 px-4 
+                    <a href="#contact" className="bg-lightPurple  w-36 font-poppins py-2 px-4 
                     rounded-full">Get Resume</a>
-                    <a href="#projects" className="bg-lightBlue2 hover:bg-blue-700 w-36 font-poppins py-2 px-4 
+                    <a href="#projects" className="bg-lightBlue2 w-36 font-poppins py-2 px-4 
                     rounded-full">Contact</a>
                 </div>
             </div>

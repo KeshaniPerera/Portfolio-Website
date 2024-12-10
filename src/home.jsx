@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavBar } from './components/navBar.jsx';
 import { Intro } from './components/intro.jsx';
+import { About } from './components/about.jsx';
 
 export const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ export const HomePage = () => {
         <div>
         < NavBar />
         < Intro />
+        < About />
 
         </div>
         </>
