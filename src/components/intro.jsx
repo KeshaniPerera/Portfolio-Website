@@ -4,7 +4,7 @@ export const Intro = () => {
         <div className="text-center pl-12 pr-12 flex flex-col lg:flex-row items-center justify-center lg:ml-10">
             <div className="mt-6 lg:mt-0 gap-5 flex flex-col lg:text-left">
                 <h2 className="font-name text-2xl lg:text-5xl">I'm Keshani Perera</h2>
-                <TypeAnimation className='font-jobTitle text-3xl lg:mt-5 lg:mb-5 lg:text-6xl'
+                <TypeAnimation className='font-jobTitle text-3xl  lg:mt-5 lg:mb-5 lg:text-6xl'
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'A Software Developer',

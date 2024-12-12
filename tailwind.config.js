@@ -12,6 +12,7 @@ export default {
         lightPurple: '#CFB3F0',
         lightBlue2: '#D1D8FF',
         bgGrey: '#F5F6F7',
+        title: '#cab2f0'
 
         // darkPurple: '#8a31d0',
         // mediumPurple: '#634ee3'

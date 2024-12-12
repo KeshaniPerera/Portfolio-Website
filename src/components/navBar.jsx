@@ -9,7 +9,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="bg-lightBlue p-8 h-5 flex m-10 rounded-lg justify-center items-center font-links">
+      <div className="bg-lightBlue p-8 h-5  flex m-10 rounded-lg justify-center items-center font-links">
         {/* Links for larger screens */}
         <div className="hidden sm:flex gap-8">
           <a href="#" className="mr-4">Home</a>

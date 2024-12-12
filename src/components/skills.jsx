@@ -3,7 +3,7 @@ export const Skills = () => {
         <div className="p-10 pt-1">
                      <h1 className="font-jobTitle text-center  mt-5 mb-5 text-4xl">Skills</h1>
 
-                     <h3 className="font-jobTitle text-2xl mt-5   lg:mt-0 text-center mb-10">Frontend Technologies</h3>
+                     <h3 className="font-jobTitle text-2xl mt-5   lg:mt-0 text-center mb-10 md:text-left">Frontend Technologies</h3>
                      <div className="grid grid-cols-3 md:grid-cols-7  mt-4 gap-5 place-items-center ">
                      <div className="bg-bgGrey p-5 rounded-lg w-28 h-28 flex flex-col items-center">
                      <div className="h-10 "><img src="react.png" className=" w-10 " /></div>
@@ -36,7 +36,7 @@ export const Skills = () => {
                      </div>
                      </div>
 
-                     <h3 className="font-jobTitle text-2xl mt-14  text-center mb-10 ">Backend Technologies</h3>
+                     <h3 className="font-jobTitle text-2xl mt-14  text-center mb-10 md:text-left ">Backend Technologies</h3>
                      <div className="grid grid-cols-3 md:grid-cols-4 mt-5 gap-5 place-items-center md:w-1/2 mx-auto">
 
                      <div className="bg-bgGrey p-5 rounded-lg w-28 h-28 flex flex-col items-center">
@@ -57,7 +57,7 @@ export const Skills = () => {
                      </div>
 
                     </div>
-                    <h3 className="font-jobTitle text-2xl mt-14  text-center mb-10 ">Databases & Other Technologies</h3>
+                    <h3 className="font-jobTitle text-2xl mt-14  text-center md:text-left mb-10 ">Databases & Other Technologies</h3>
                     <div className="grid grid-cols-3 md:grid-cols-7 mt-5 gap-5 place-items-center  mx-auto">
 
                     <div className="bg-bgGrey p-5 rounded-lg w-28 h-28 flex flex-col items-center">
