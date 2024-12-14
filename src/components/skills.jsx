@@ -1,7 +1,7 @@
 export const Skills = () => {
     return (
-        <div className="p-10 pt-1">
-                     <h1 className="font-jobTitle text-center  mt-5 mb-5 text-4xl">Skills</h1>
+        <div className="p-10 pt-1" >
+                     <h1 className="font-jobTitle text-center  mt-5 mb-5 text-4xl" >Skills</h1>
 
                      <h3 className="font-jobTitle text-2xl mt-5   lg:mt-0 text-center mb-10 md:text-left">Frontend Technologies</h3>
                      <div className="grid grid-cols-3 md:grid-cols-7  mt-4 gap-5 place-items-center ">
@@ -88,7 +88,7 @@ export const Skills = () => {
                      </div>
                      <div className="bg-bgGrey p-5 rounded-lg w-28 h-28 flex flex-col items-center">
                      <div className="h-10"><img src="figma.png" className=" w-10 " /></div>
-                     <p className="font-poppins mt-3 ">Figma</p>
+                     <p className="font-poppins mt-3 "  id="projects">Figma</p>
                      </div>
 
 

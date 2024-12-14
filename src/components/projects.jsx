@@ -1,52 +1,49 @@
 import React, { useState } from "react";
 
 export const Projects = () => {
-    // Array of project objects
     const projects = [
         {
             name: "Task Management System",
             description: "Bingo, a task management web app where manager can add daily tasks to employees with relevant document, and employees can view, download document and set task completed when done. Also provide analytics of daily tasks, work in progress and etc. Built using the MERN stack.",
-            link: "https://example.com/project-two",
+            link: "https://github.com/KeshaniPerera/Bingo-Task-Management-Application",
             image: "bingo.png",
         },
         {
             name: "Movie Ticket Booking Website",
             description: "Cinemaplex, a movie ticket booking website where the main features are Registered users can view movie details, pick date,time, seats and book ticketsGuest users can only browse details and watch trailersThe admin can manage the movies, showtimes and bookings",
-            link: "https://example.com/project-one",
+            link: "https://github.com/KeshaniPerera/Movie-Ticket-Booking-Website",
             image: "cinemaplexMovie.png",
         },
        
         {
             name: "Restaurant Mobile App",
             description: "Hungry Bunny, a restaurant application where registered users can pre order food. Guests are allowd to view food details. Authenticated with email passcodes. Also with the features of adding favorites, sortimg and searching with an admin panel to manage all restaurant information. Built using Flutter and Firebase.",
-            link: "https://example.com/project-three",
+            link: "https://github.com/KeshaniPerera/Restaurant-Food-Ordering-Mobile-Application",
             image: "hungrybunny.png",
         },
         {
             name: "City Weather App",
             description: "City weather condition displaying application using the Open Weather API. Users can search for a city and view the current weather conditions. Built using React.",
-            link: "https://example.com/project-four",
+            link: "https://github.com/KeshaniPerera/City-Weather-Application",
             image: "weatherapp.PNG",
         },
         {
             name: "Plant Store",
             description: "A web application with the CRUD operations for a plant store where plants, details and prices are displayed and their details can be managed. Built using React and MERN stack",
-            link: "https://example.com/project-five",
+            link: "https://github.com/KeshaniPerera/Leavy-Plant-Store",
             image: "leavy.PNG",
         },
         {
             name: "Book Shop Information System",
             description: "A desktop application to manage books in a bookshop with the CRUD operations to manage book details. Manager manages the cashier accounts and cashier manages the books.  Built using java and swing UI libray appling the OOP concepts.",
-            link: "https://example.com/project-five",
+            link: "https://github.com/KeshaniPerera/Book-Shop-Information-Management-System",
             image: "citybookshop.png",
         },
     ];
 
-    // State to track the current project index
     const [currentIndex, setCurrentIndex] = useState(0);
     const [swap, setSwap] = useState(false);
 
-    // Functions to handle navigation
     const goToPrevious = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
 
@@ -91,6 +88,7 @@ export const Projects = () => {
                 </div>
                 <button
                     onClick={goToNext}
+                    id="contact"
                     className="absolute right-10 lg:right-56 w-10 h-10 flex items-center justify-center bg-white rounded-full p-3 hover:bg-violet-200 transition"
                 >
                     ❯
