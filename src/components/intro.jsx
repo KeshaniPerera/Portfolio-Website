@@ -66,10 +66,10 @@ export const Intro = () => {
                         {/* Buttons Section */}
                         <div id="about" className="flex justify-center lg:justify-start gap-8 text-center lg:mt-10">
                             <button
-                                className="bg-lightPurple w-36 font-poppins py-2 px-4 rounded-full"
+                                className="bg-lightPurple w-40 font-poppins py-2 px-4 rounded-full h-10 flex"
                                 onClick={handleFileDownload} // Trigger file download on click
                             >
-                                Get Resume
+                                Get Resume <img src="download.png" alt="Download Icon" className="w-5 justify-center ml-1"/> 
                             </button>
                             <Link
                                 to="#projects"
