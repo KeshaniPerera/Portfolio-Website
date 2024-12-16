@@ -62,7 +62,7 @@ export const Contact = () => {
       <div>
         <Toaster position="bottom-right" duration={8000} />
 
-        <div className="pb-10 "id="contact">
+        <div className="pb-10 p-10 "id="contact">
           <h1 className="font-jobTitle text-center mt-5 mb-5 text-4xl">Contact</h1>
           <p className="font-poppins text-center justify-self-center">
             Get in touch for any comments, feedback, or new projects. Simply send me an message from the form below.

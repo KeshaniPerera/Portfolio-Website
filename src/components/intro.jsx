@@ -29,7 +29,7 @@ export const Intro = () => {
     return (
         <div id="intro">
             <BrowserRouter>
-                <div className="text-center mt-36 pl-12 pr-12 flex flex-col lg:flex-row items-center justify-center lg:ml-10">
+                <div className="text-center mt-32  md:mt-36 pl-12 pr-12 flex flex-col lg:flex-row items-center justify-center lg:ml-10">
                     <div className="mt-6 lg:mt-0 gap-5 flex flex-col lg:text-left">
                         <h2 className="font-name text-2xl lg:text-5xl ">I'm Keshani Perera</h2>
                         <TypeAnimation

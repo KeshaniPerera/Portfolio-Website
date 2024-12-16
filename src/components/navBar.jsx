@@ -87,7 +87,7 @@ export const NavBar = () => {
         </div>
 
         <div
-          className={`sm:hidden fixed top-20 m-10 left-0 z-10 transform transition-all duration-500 ease-in-out ${
+          className={`sm:hidden fixed top-20 m-2 left-0 z-10 transform transition-all duration-500 ease-in-out ${
             isPopupOpen ? "translate-x-5" : "-translate-x-full bg-white"
           } bg-lightBlue w-64 p-8 rounded-lg`}
         >
