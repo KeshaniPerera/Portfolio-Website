@@ -17,8 +17,8 @@ export const Intro = () => {
 
     
 
-    const CV_URL = '/Portfolio-Website/KeshaniPereraCV.pdf';
-    const handleFileDownload = () => {
+    const CV_URL = '/KeshaniPereraCV.pdf';
+        const handleFileDownload = () => {
         new Audio(send).play();
         const link = document.createElement('a');
         link.href = CV_URL;
