@@ -17,14 +17,13 @@ export const Intro = () => {
 
     
 
-    const CV_URL = '/KeshaniPereraCV.pdf';
-
+    const CV_URL = '/Portfolio-Website/KeshaniPereraCV.pdf';
     const handleFileDownload = () => {
-         new Audio(send).play();
+        new Audio(send).play();
         const link = document.createElement('a');
         link.href = CV_URL;
-        link.download = 'KeshaniPereraCV.pdf'; 
-        link.click(); 
+        link.download = 'KeshaniPereraCV.pdf';
+        link.click();
     };
 
     return (
